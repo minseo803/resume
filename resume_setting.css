@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    font-family: 'Montserrat'
+}
+
+body,h1,h2{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    min-width: fit-content;
+}
+
+h1{
+    font-size: 36px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+h2{
+    font-size: 20px;
+    font-weight: lighter;
+    color: #282828;
+    border-bottom: 1px solid #ebebeb;
+    margin-bottom: 16px;
+    padding-bottom: 5px;
+}
+
+h3{
+    font-size: 15px;
+    font-weight: lighter;
+    color: #282828;    
+}
+
+.mainbox{
+    border: 10px inset #68ADD0;
+    width: 610px;
+    padding: 30px;
+    margin: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 1px 20px 0 rgba(0,0,0,0.1);
+}
+
+section{
+    margin-bottom: 24px;
+}
+
+.name-text{
+    font-size: 16px;
+    color: #7c7c7c;
+    font-weight: bold;
+}
+
+.about-me-text{
+    font-size: 10px;
+    line-height: 16px;
+}
+
+/*EDUCATION*/
+.qualification-text{
+    font-size: 13px;
+    font-weight: bold;
+    color: #282828;
+    float: left;
+}
+
+.school-year-text{
+    font-size: 13px;
+    font-weight: bold;
+    color: #282828;
+    float: right;
+}
+
+.float-wrap{
+    overflow: hidden;
+}
+
+.school-text{
+    font-size: 11px;
+    color: #282828;
+    padding-left: 18px;
+}
+
+/*Leadership*/
+.leadership-activity-text{
+    font-size: 13px;
+    font-weight: bold;
+    color: #282828;
+    float: left;
+}
+
+.period-text{
+    font-size: 13px;
+    font-weight: bold;
+    color: #282828;
+    float: right;
+}
+
+.leadership-float-wrap{
+    overflow: hidden;
+}
+
+.institution-text{
+    font-size: 11px;
+    color: #282828;
+    padding-left: 18px;
+}
+
+/*Academic Achievements*/
+.academic-text{
+    font-size: 13px;
+    font-weight: bold;
+    color: #282828;
+    float: left;
+}
+
+.acdemic-period-text{
+    font-size: 13px;
+    font-weight: bold;
+    color: #282828;
+    float: right;
+}
+
+.academic-float-wrap{
+    overflow: hidden;
+}
+
+.academic-institution-text{
+    font-size: 11px;
+    color: #282828;
+    padding-left: 18px;
+}
+
+/*Others*/
+
+.others-text{
+    font-size: 13px;
+    font-weight: bold;
+    color: #282828;
+    float: left;
+}
+
+.others-period-text{
+    font-size: 13px;
+    font-weight: bold;
+    color: #282828;
+    float: right;
+}
+
+.others-float-wrap{
+    overflow: hidden;
+}
+
+.others-institution-text{
+    font-size: 11px;
+    color: #282828;
+    padding-left: 18px;
+}
+
+/*Language*/
+.language-text{
+    font-size: 13px;
+    font-weight: bold;
+    color: #282828;
+    float: left;
+}
+
+.language-level-text{
+    font-size: 13px;
+    font-weight: bold;
+    color: #282828;
+    float: right;
+}
+
+.language-float-wrap{
+    overflow: hidden;
+}
+
+.language-description-text{
+    font-size: 11px;
+    color: #282828;
+    padding-left: 18px;
+}
+
+/*sns*/
+.sns-img{
+    width: 12px;
+    height: 12px;
+}
+
+.sns-wrap{
+    text-align: right;
+}
+
+/*footer*/
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(57, 84, 124);
+    color: white;
+    font-size: 12px;
+}
+
